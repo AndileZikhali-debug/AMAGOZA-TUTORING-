@@ -6,6 +6,9 @@ const TutorProfiles = () => {
     { id: 1, name: "Thandiwe Mkhize", subject: "Mathematics", bio: "Experienced Maths tutor with a BSc in Education.", image: "https://via.placeholder.com/150" },
     { id: 2, name: "Sipho Ngcobo", subject: "Physical Sciences", bio: "PhD in Physics, passionate about student success.", image: "https://via.placeholder.com/150" },
     { id: 3, name: "Lerato Botha", subject: "English", bio: "Language expert with 5+ years of tutoring experience.", image: "https://via.placeholder.com/150" },
+    { id: 3, name: "Ntobeko Mgoza", subject: "Mathematics", bio: "Mathematics expert with 5+ years of tutoring experience.", image: "https://via.placeholder.com/150" },
+    { id: 3, name: "Micheal Mgoza", subject: "Tertiary Modules", bio: "Masters expert with 5+ years of tutoring experience.", image: "https://via.placeholder.com/150" },
+  
   ];
 
   return (
