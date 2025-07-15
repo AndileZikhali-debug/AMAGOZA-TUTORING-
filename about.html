@@ -1,0 +1,91 @@
+n<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AMAGOZA TUTORING BACKGROUND</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 font-sans">
+  <!-- Navigation -->
+  <nav class="bg-blue-600 text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">ABOUT AMAGOZA TUTORING</h1>
+      <ul class="flex space-x-4">
+        <li><a href="index.html" class="hover:underline">Home</a></li>
+        <li><a href="about.html" class="hover:underline">About</a></li>
+        <li><a href="services.html" class="hover:underline">Services</a></li>
+        <li><a href="tutors.html" class="hover:underline">Tutors</a></li>
+        <li><a href="booking.html" class="hover:underline">Book a Session</a></li>
+        <li><a href="testimonials.html" class="hover:underline">Testimonials</a></li>
+        <li><a href="contact.html" class="hover:underline">Contact</a></li>
+        <li><a href="blog.html" class="hover:underline">Blog</a></li>
+        <li><a href="faqはありません.html" class="hover:underline">FAQ</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="bg-blue-800 text-white py-20 text-center">
+    <div class="container mx-auto">
+      <h2 class="text-4xl font-bold mb-4">Empowering South African Students</h2>
+      <p class="text-lg mb-6">AMAGOZA TUTORING offers personalized, high-quality tutoring to help you excel in your studies.</p>
+      <a href="booking.html" class="bg-yellow-500 text-black px-6 py-3 rounded-full font-semibold hover:bg-yellow-600">Book Now</a>
+    </div>
+  </section>
+
+  <!-- Services Highlight -->
+  <section class="py-16">
+    <div class="container mx-auto">
+      <h3 class="text-3xl font-bold text-center mb-8">Our Services</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h4 class="text-xl font-semibold mb-2">Mathematics</h4>
+          <p>Expert tutoring for CAPS-aligned Maths from Grade 1 to Matric.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h4 class="text-xl font-semibold mb-2">Science</h4>
+          <p>Hands-on support for Physical Sciences and Life Sciences.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h4 class="text-xl font-semibold mb-2">Languages</h4>
+          <p>Improve your English, Zulu, or Afrikaans with our skilled tutors.</p>
+        </div>
+      </div>
+      <div class="text-center mt-8">
+        <a href="services.html" class="text-blue-600 hover:underline">View All Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tutors Preview -->
+  <section id="tutors-preview" class="bg-gray-200 py-16">
+    <div class="container mx-auto">
+      <h3 class="text-3xl font-bold text-center mb-8">Meet Our Tutors</h3>
+      <div id="tutor-profiles" class="grid grid-cols-1 md:grid-cols-3 gap-8"></div>
+      <div class="text-center mt-8">
+        <a href="tutors.html" class="text-blue-600 hover:underline">See All Tutors</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white py-8">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2025 AMAGOZA TUTORING. All rights reserved.</p>
+      <p>Contact: info@amagozatutoring.co.za | +27 123 456 789</p>
+      <div class="mt-4">
+        <a href="#" class="text-yellow-400 hover:underline mx-2">Facebook</a>
+        <a href="#" class="text-yellow-400 hover:underline mx-2">WhatsApp</a>
+        <a href="#" class="text-yellow-400 hover:underline mx-2">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/babel" src="scripts.js"></script>
+</body>
+</html>
